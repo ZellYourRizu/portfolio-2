@@ -3,60 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fotofolio Saya</title>
+    <title>Fotofolio Riski Anak Patopang</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- NAVBAR -->
     <header class="navbar">
         <h1 class="logo">Fotofolio</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Tentang</a></li>
+                <li><a href="#services">Layanan</a></li>
                 <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#testimonials">Testimoni</a></li>
                 <li><a href="#contact">Kontak</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- HERO -->
     <section id="home" class="hero">
         <div class="hero-text">
             <h2>Halo, Saya <span>Riski Anak Patopang</span></h2>
-            <p>Fotografer | Desainer Grafis | Creator digital</p>
+            <p>Fotografer | Desainer Grafis | Digital Creator</p>
             <a href="#gallery" class="btn">Lihat Karya</a>
+            <a href="#contact" class="btn-outline">Hubungi Saya</a>
         </div>
         <div class="hero-image">
             <img src="profile.png" alt="Foto Profil">
         </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about" class="about">
         <h2>Tentang Saya</h2>
         <p>
-            Saya adalah seorang kreator visual yang berfokus pada fotografi dan desain modern.
-            Website ini menampilkan beberapa karya terbaik saya.
+            Saya adalah kreator visual yang berfokus pada fotografi dan desain modern.
+            Dengan pengalaman lebih dari 3 tahun, saya telah membantu berbagai brand
+            dan individu membangun identitas visual yang kuat.
         </p>
-    </section>
 
-    <section id="gallery" class="gallery">
-        <h2>Galeri</h2>
-        <div class="gallery-grid">
-            <div class="card">Project 1</div>
-            <div class="card">Project 2</div>
-            <div class="card">Project 3</div>
-            <div class="card">Project 4</div>
+        <div class="skills">
+            <h3>Keahlian</h3>
+            <div class="skill">
+                <p>Fotografi</p>
+                <div class="progress"><span style="width:90%"></span></div>
+            </div>
+            <div class="skill">
+                <p>Desain Grafis</p>
+                <div class="progress"><span style="width:85%"></span></div>
+            </div>
+            <div class="skill">
+                <p>Editing Video</p>
+                <div class="progress"><span style="width:75%"></span></div>
+            </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2>Kontak</h2>
-        <p>Email: emailanda@email.com</p>
-        <p>Instagram: @usernameanda</p>
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <h2>Layanan</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Fotografi</h3>
+                <p>Prewedding, event, produk, dan personal branding.</p>
+            </div>
+            <div class="service-card">
+                <h3>Desain Grafis</h3>
+                <p>Logo, poster, feed Instagram, branding kit.</p>
+            </div>
+            <div class="service-card">
+                <h3>Video Editing</h3>
+                <p>Konten sosial media, cinematic video, promosi bisnis.</p>
+            </div>
+        </div>
     </section>
 
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery">
+        <h2>Galeri Karya</h2>
+        <div class="gallery-grid">
+            <div class="card"><img src="1.jpg" alt="Project 1"></div>
+            <div class="card"><img src="2.jpg" alt="Project 2"></div>
+            <div class="card"><img src="3.jpg" alt="Project 3"></div>
+            <div class="card"><img src="4.jpg" alt="Project 4"></div>
+            <div class="card"><img src="5.jpg" alt="Project 5"></div>
+            <div class="card"><img src="6.jpg" alt="Project 6"></div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section id="testimonials" class="testimonials">
+        <h2>Testimoni Klien</h2>
+        <div class="testimonial-card">
+            <p>"Hasil fotonya sangat memuaskan dan profesional!"</p>
+            <h4>- Andi, Pengusaha</h4>
+        </div>
+        <div class="testimonial-card">
+            <p>"Desainnya modern dan sesuai dengan brand saya."</p>
+            <h4>- Sinta, Content Creator</h4>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Hubungi Saya</h2>
+        <form>
+            <input type="text" placeholder="Nama Anda" required>
+            <input type="email" placeholder="Email Anda" required>
+            <textarea placeholder="Pesan Anda" required></textarea>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+
+        <div class="social">
+            <p>Email: riski@email.com</p>
+            <p>Instagram: @riski.photo</p>
+            <p>WhatsApp: 08xxxxxxxxxx</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2026 Fotofolio Saya. All Rights Reserved.</p>
+        <p>© 2026 Riski Anak Patopang. All Rights Reserved.</p>
     </footer>
 
 </body>
